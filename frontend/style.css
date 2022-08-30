@@ -15,7 +15,7 @@ html, body {
 
 .top-container {
 	background-color: white;
-	padding-left: 5vh;
+	padding-left: 5%;
 	padding-top: 1rem;
 	min-width: 100%;
 	align-items: center;
@@ -23,14 +23,14 @@ html, body {
 
 .left-container {
 	background-color: white;
-	padding-left: 5vh;
+	padding-left: 5%;
 	padding-top: 1rem;
-	min-width: 25vw;
+	min-width: 25%;
 }
 
 .right-container {
 	background-color: #f6fcf8;
-	min-width: 60vw;
+	min-width: 60%;
 	display: flex;
 }
 
@@ -62,7 +62,7 @@ html, body {
 	font-family: 'Figtree', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 500;
-	padding-right: 7vh;
+	padding-right: 7%;
 
 	margin: 0;
 }
@@ -87,7 +87,7 @@ html, body {
 	font-family: 'Figtree', sans-serif;
 	font-size: 1.2rem;
 	font-weight: 500;
-	padding-right: 10vh;
+	padding-right: 10%;
 
 	margin: 0;
 }
