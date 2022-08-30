@@ -12,17 +12,22 @@
 </head>
 <body>
 
-<div class="split-view">
-	<div class="left-container">
-		<img class="logo" src="images/NewLogo.png" style="margin-bottom: 32px;" />
-
-		<h2 style="margin-bottom: 32px">Thinking of Planting Something?</h2>
-		<p style="margin-bottom: 32px">Use this tool to determine whether your location would be suitable for farming, and what kind of crops would thrive best!<br/><br/></p>
+<div >
+	<div class="top-container">
+		<img class="logo" src="images/NewLogo.png" />
 	</div>
 	
-	<div class="right-container">
-		<div class="smaller-width" v-scope>
+	<div class="split-view">
+		<!-- <div class="smaller-width" v-scope> -->
+		<div class="right-container">
 			<div id="map-canvas"></div>
+		</div>
+		<div class="left-container">
+			<div class="text-container">
+				<h2 >Thinking of Planting Something?</h2>
+				<p >Use this tool to determine whether your location would be suitable for farming, and what kind of crops would thrive best!<br/><br/></p>
+
+			</div>
 			<form id = "form">
 				Start <br>
 				<select name="startmonth">
@@ -135,6 +140,7 @@
 				<input type="Submit" name="" value="submit"> 
 				<br><br>
 		</form>
+		<div class="bottom-container">
 			<h3>Directions</h3>
 			<p style="margin-bottom: 32px;">Drag the marker above to whatever location you wish to explore. Then, press analyze and we'll tell you the best crops to plant based on that area's projected rainfall and soil pH!</p>
 
@@ -157,6 +163,8 @@
 				</p>
 			</div>
 		</div>
+		</div>
+		<!-- </div> -->
 	</div>
 </div>
 
